@@ -26,3 +26,5 @@ public class guiTest extends Application{
 		stage.show();
 	}
 }
+
+//テステス
