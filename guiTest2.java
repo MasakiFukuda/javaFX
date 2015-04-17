@@ -10,7 +10,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
-import javafx.stage.Stage;
 
 public class guiTest2 extends Application{
 	public static void main(String[] args){
