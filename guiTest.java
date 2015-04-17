@@ -13,7 +13,7 @@ public class guiTest extends Application{
 	
 	public void start(Stage stage)throws Exception{
 		Label label = new Label("This is javaFX");
-		Label label2 = new Label("GUI‚ÌƒeƒXƒg");
+		Label label2 = new Label("GUIã®ãƒ†ã‚¹ãƒˆ");
 		
 		FlowPane fp = new FlowPane();
 		
@@ -27,4 +27,4 @@ public class guiTest extends Application{
 	}
 }
 
-//ƒeƒXƒeƒX
+//ãƒ†ã‚¹ãƒ†ã‚¹
