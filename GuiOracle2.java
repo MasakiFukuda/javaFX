@@ -49,6 +49,7 @@ public class GuiOracle2 extends Application{
 				st = con.createStatement();
 				int count = st.executeUpdate(field.getText());
 				lb.setText(count+"Œˆ—‚µ‚Ü‚µ‚½");
+				st.close();
 			}catch(SQLException e){}
 		});
 		
@@ -68,7 +69,6 @@ public class GuiOracle2 extends Application{
 		
 		bt5.setOnAction((ActionEvent)->{
 			try{
-				st.close();
 				con.close();
 				lb.setText("Oracle‚©‚çØ’f‚µ‚Ü‚µ‚½");
 			}catch(SQLException e){}
